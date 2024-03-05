@@ -1,0 +1,33 @@
+#general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contenedorInicial {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+}
+
+h3 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#espacioTexto {
+  border: solid black 3px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  margin-top: 20px;
+  height: 50px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+  border: solid black 3px;
+  font-weight: 800;
+}
+
+#contenedorResultado {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 20px;
+}
